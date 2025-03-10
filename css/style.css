@@ -129,10 +129,26 @@ button.button-black{
     max-width: 874px;
 }
 
+.finish-main{
+    display: flex;
+    flex-direction: column;
+}
+.finish-main>h3{
+    background-image: url(../img/stars.svg);
+    
+    text-align: center;
+    padding: 10px 0;
+}
+.finish-main>button{
+    background-color: #7289da;
+    align-self: center;
+}
+
 
      /* FOOTER */
 footer{
     background-color: #23272a;
+    color: white;
 }
 
 .footer-content{
@@ -142,11 +158,7 @@ footer{
     border-bottom: 1px solid white;
     margin-bottom: 30px;
 }
-.pink-box{
-    background-color: #f08180;
-    height: 550px;
-    flex-grow: 2;
-}
+
 .aqua-box{
     background-color: #20b3aa;
     height: 550px;
