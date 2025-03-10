@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+ul{
+    list-style:none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -149,21 +152,27 @@ button.button-black{
 footer{
     background-color: #23272a;
     color: white;
+    text-align: center;
 }
 
 .footer-content{
     display: flex;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 30px;
     border-bottom: 1px solid white;
     margin-bottom: 30px;
 }
-
+.pink-box>h1{
+    color: #7289da;
+    padding-top: 0;
+}
+.aqua-box>h5{
+    color: #7289da;
+}
 .aqua-box{
-    background-color: #20b3aa;
-    height: 550px;
+    
     flex-grow: 1;
-    border: 1px dashed white;
+    
 }
 .end-page{
     background-color: #7fffd4;
