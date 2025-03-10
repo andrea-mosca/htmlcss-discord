@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,9 +17,7 @@ body{
     max-width: 1100px;
     margin: 0 auto;
 }
-.box{
-    border: 1px dashed black;
-}
+
 .back-grey{
     background-color: #d3d3d3;
     
@@ -26,13 +28,22 @@ body{
     
 /* ------SECTION------- */
 
+h1{
+    padding: 30px 0;
+    width: 80%;
+}
+p{
+    padding-bottom: 10px;
+    width: 80%;
 
+}
 /* HEADER */
 header{
-    background-color: #add8e7;
+    background-color: #255ee9;
+    color: white;
 }
 .menu{
-    background-color: #daa51e;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -46,44 +57,61 @@ header{
 }
 .menu-logo, .menu-login{
 flex-grow: 1;
+width: 10%;
+}
+button.button-white{
+    
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+}
+button.button-black{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+
+    padding: 10px;
 }
 .menu-link{
-    flex-grow: 5;
+    flex-grow: 1;
     text-align: center;
+    width: 80%;
+}
+.menu-link>span{
+    padding: 10px;
 }
 .menu-login{
     text-align: end;
 }
 
 .header-bottom{
-    background-color: #00018b;
-    padding: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px;
+    text-align: center;
 }
-.purple-box{
-    background-color: #ef82ed;
-    width: 600px;
-    height: 200px;
+.header-bottom>div{
+    max-width: 50%;
     margin: auto;
-    
 }
 
      /* MAIN */
 
 .box-img{
-    background-color: #1e90ff;
-    width: 500px;
-    height: 250px;
     flex-grow: 1;  
 }
 .box-text{
-    background-color: #ffc0ca;
-    width: 200px;
-    height: 250px;
+  
     flex-grow: 1;
+    padding-left: 50px;
+    
 }
 
 .first-segment{
     display: flex;
+    
 }
 
 .second-segment{
@@ -91,11 +119,10 @@ flex-grow: 1;
     flex-direction: row-reverse;
     
 }
-
 .green-box{
-    background-color: #218b21;
-    height: 700px;
+    text-align: center;
 }
+
 
      /* FOOTER */
 footer{
