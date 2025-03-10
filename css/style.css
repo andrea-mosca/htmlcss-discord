@@ -162,9 +162,18 @@ footer{
     border-bottom: 1px solid white;
     margin-bottom: 30px;
 }
+.pink-box{
+    text-align: left;
+}
+.pink-box>img{
+    max-width: 25px;
+}
 .pink-box>h1{
     color: #7289da;
     padding-top: 0;
+}
+.pink-box>div>i{
+    padding: 10px;
 }
 .aqua-box>h5{
     color: #7289da;
@@ -174,14 +183,14 @@ footer{
     flex-grow: 1;
     
 }
+.end-page>button{
+    background-color: #7289da;
+    color: white;
+}
+
 .end-page{
-    background-color: #7fffd4;
+    
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
-}
-.end-logo, .end-button{
-    background-color: #f9bdc3;
-    padding: 5px;
-    border: 1px dashed black;
+    
 }
