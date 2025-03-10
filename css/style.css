@@ -1,0 +1,138 @@
+/* -----RESET----- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------UTILITY-------- */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.box{
+    border: 1px dashed black;
+}
+.back-grey{
+    background-color: #d3d3d3;
+}
+    
+/* ------SECTION------- */
+
+
+/* HEADER */
+header{
+    background-color: #add8e7;
+}
+.menu{
+    background-color: #daa51e;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top{
+    padding: 10px;
+}
+.menu-logo, .menu-link, .menu-login{
+    
+    padding: 5px;
+    
+}
+.menu-logo, .menu-login{
+flex-grow: 1;
+}
+.menu-link{
+    flex-grow: 5;
+    text-align: center;
+}
+.menu-login{
+    text-align: end;
+}
+
+.header-bottom{
+    background-color: #00018b;
+    padding: 20px;
+}
+.purple-box{
+    background-color: #ef82ed;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    
+}
+
+     /* MAIN */
+
+.box-img{
+    background-color: #1e90ff;
+    width: 500px;
+    height: 250px;
+    flex-grow: 1;  
+}
+.box-text{
+    background-color: #ffc0ca;
+    width: 200px;
+    height: 250px;
+    flex-grow: 1;
+}
+
+.first-segment{
+    display: flex;
+    padding: 30px;
+    
+}
+
+.second-segment{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+.green-box{
+    background-color: #218b21;
+    height: 700px;
+}
+.fourth-segment{
+    padding: 30px;
+}
+
+     /* FOOTER */
+footer{
+    background-color: #23272a;
+}
+
+.footer-content{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid white;
+}
+.pink-box{
+    background-color: #f08180;
+    height: 550px;
+    flex-grow: 2;
+}
+.aqua-box{
+    background-color: #20b3aa;
+    height: 550px;
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+.end-page{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.end-logo, .end-button{
+    background-color: #f9bdc3;
+    padding: 5px;
+    border: 1px dashed black;
+}
+.last-block{
+    padding: 30px;
+}
